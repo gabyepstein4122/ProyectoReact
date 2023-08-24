@@ -12,8 +12,6 @@ function App() {
     <div>
       <Header></Header>
       <ItemListContainer greeting='Soy un mensaje'></ItemListContainer> 
-      {/* <Productos></Productos>
-      <Footer></Footer> */}
     </div>
   )
 }

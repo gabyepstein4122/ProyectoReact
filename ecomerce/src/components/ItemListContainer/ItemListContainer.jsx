@@ -1,9 +1,10 @@
 
 const ItemListContainer = (props) => {
-    console.log(props)
+    //eslint-disable-next-line react/prop-types
+    const {greeting} = props
     return(
         <>
-            <h1>{props.greeting}</h1>
+            <h1>{greeting}</h1>
         </>
     )
 }
