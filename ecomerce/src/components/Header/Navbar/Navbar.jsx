@@ -1,5 +1,8 @@
+import { Link } from 'react-router-dom'
 import CartWidget from '../CartWidget/CartWidget'
 import './Navbar.css'
+
+
 
 
 const Navbar = () => {
@@ -7,19 +10,21 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg fondo">
                     <div className="container-fluid justify-content-evenly">
                         <ul className="navbar-nav">
-                            <button className='espacio'>
+                            <Link to='/categoria/remeras' className='espacio button'>
                                 Remeras
-                            </button>
-                            <button className='espacio'>
+                            </Link>
+                            <Link to='/categoria/gorras' className='espacio button'>
                                 Gorras
-                            </button>
-                            <button className='espacio'>
+                            </Link>
+                            <Link to='/categoria/pantalones' className='espacio button'>
                                 Pantalones
-                            </button>
-                            <button className='espacio'>
-                                Remeras
-                            </button>
-                            <CartWidget></CartWidget>
+                            </Link>
+                            <Link to='/categoria/buzos' className='espacio button'>
+                                Buzos
+                            </Link>
+                            <Link to='/carrito'>
+                                <CartWidget/>
+                            </Link>
                         </ul>
                     </div>   
                 </nav>
@@ -27,4 +32,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
 

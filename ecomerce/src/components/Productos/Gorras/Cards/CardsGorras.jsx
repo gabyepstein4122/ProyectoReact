@@ -1,4 +1,4 @@
-const Deportivas = () => {
+const CardsGorras = () => {
     return(
         <div>
             <div className="card mb-3" style="max-width: 540px;">
@@ -17,4 +17,4 @@ const Deportivas = () => {
     )
 }
 
-export default Deportivas
+export default CardsGorras

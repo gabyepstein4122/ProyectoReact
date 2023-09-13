@@ -1,8 +1,8 @@
-const Cargos = () => {
+const CardsPantalones = () => {
     return(
         <div>
             <div className="card" style="width: 18rem;">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src="/ecomerce/public/img/Pantalones/Pantalones_Joggins.JPG" className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <a href="#" className="btn btn-primary">Go somewhere</a>
@@ -12,4 +12,4 @@ const Cargos = () => {
     )
 }
 
-export default Cargos
+export default CardsPantalones

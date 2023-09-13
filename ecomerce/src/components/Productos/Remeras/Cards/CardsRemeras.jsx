@@ -1,8 +1,8 @@
-const Lisas = () => {
+const CardsRemeras = () => {
     return (
         <div>
             <div className="card">
-                <img src="/ecomerce/public/img/Remeras/Remeras_Lisas.jpeg" className="card-img-top" alt="..."/>
+                <img src="/ecomerce/public/img/Remeras/Remeras_Chombas.jpg" className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -15,4 +15,4 @@ const Lisas = () => {
     )
 }
 
-export default Lisas
+export default CardsRemeras
