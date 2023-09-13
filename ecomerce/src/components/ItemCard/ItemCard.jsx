@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
-import Contador from '../Contador';
+//import Contador from '../Contador';
 
 
 const ItemCard = ({producto}) => {
@@ -19,7 +19,7 @@ const ItemCard = ({producto}) => {
                         + Detalles
                     </Link>
                 </div>
-                <Contador/>
+
             </div>
         </>
     )
