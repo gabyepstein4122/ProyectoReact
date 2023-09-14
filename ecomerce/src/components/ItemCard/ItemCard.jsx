@@ -19,7 +19,7 @@ const ItemCard = ({producto}) => {
                         + Detalles
                     </Link>
                 </div>
-
+                
             </div>
         </>
     )

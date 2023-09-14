@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
-import Contador from "../Contador"
+import Contador from "../../Contador"
 
 const ItemDetail = ({producto}) => {
+    console.log(producto);
     return (
         <div className='border border-dark mt-5 container w-50'>
             <center><h3 className='mt-3'>Vista de Detalles</h3></center>
@@ -21,8 +21,5 @@ const ItemDetail = ({producto}) => {
     )
 }
 
-ItemDetail.propTypes = {
-    producto: PropTypes.object.isRequired
-};
 
 export default ItemDetail
